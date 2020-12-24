@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+@font-face { 
+  font-family: 'Open-Sans'; 
+  src: url('../fonts/OpenSans.ttf')  format('truetype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'Open-Sans-Bold';
+  src: url('../fonts/OpenSans-Bold.ttf')  format('truetype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+header {
+    width: 100%;
+    height: 913px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 250px;
+    position: absolute;
+    top: 4.5%;
+    left: 39.5%;
+}
+
+.banner-text {
+    font-family: "Open-Sans", sans-serif;
+    position: absolute;
+    line-height: 220px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 34pt;
+    top: 20%;
+    left: 23.5%;
+    letter-spacing: 1px;
+}
+
+.banner-text_bold {
+    font-family: "Open-Sans-Bold", Arial;
+    left: 13.6%;
+    top: 26.2%;
+    letter-spacing: 0.5px;
+}
+
+.CallTo {
+    position: absolute;
+    background-color: white;
+    width: 314px;
+    height: 314px;
+    top: 36.5%;
+    left: 36.6%;
+    box-shadow: 0 0 8px gray;
+}
+
+.call-header,
+.call-main,
+.call-footer {
+    width: 314px;
+}
+
+.call-header {
+    background-color: ;
+    height: 85px;
+}
+
+.enter {
+    width: 232px;
+    height: 32px;
+    margin: 28px 30px;
+    padding-left: 14px;
+    letter-spacing: 0.8px;
+    color: #B8AEAE;
+    border: 1px solid #E6E6E6;
+}
+
+.call-main {
+    height: 81px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px 0;
+}
+
+.call-main-img_1 {
+    width: 62px;
+    height: 39px;
+}
+.call-main-img_2 {
+    width: 65px;
+    height: 39px;
+}
+.call-main-img_3 {
+    width: 50px;
+    height: 39px;
+}
+.call-main-img_4 {
+    width: 74px;
+    height: 39px;
+}
+.call-main-img_5 {
+    width: 63px;
+    height: 39px;
+}
+.call-main-img_6 {
+    width: 56px;
+    height: 42px;
+}
+.call-main-img_7 {
+    width: 67px;
+    height: 42px;
+}
+.call-main-img_8 {
+    width: 63px;
+    height: 42px;
+}
+.call-main-img_9 {
+    width: 63px;
+    height: 42px;
+}
+.call-main-img_10 {
+    width: 65px;
+    height: 42px;
+}
+
+.call-footer {
+    height: 146px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 273px;
+}
+
+.Mya {
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    color: red;
+}
+
+footer {
+    width: 100%;
+    height: 273px;
+    background-color: #938D8D;
+    position: absolute;
+    bottom: 0;
+}
+
+.copyright {
+    width: 100%;
+    height: 50px;
+    background-color: #41A06D;
+    position: absolute;
+    bottom: 0;
+}
+
+.copy-text {
+    font-size: 14pt;
+    color: #ECF3EF;
+    text-align: center;
+    margin: 18px 0;
+}

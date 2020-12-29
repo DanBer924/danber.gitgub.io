@@ -147,6 +147,34 @@ img {
     height: 146px;
 }
 
+.call-footer-text {
+    font-family: "Open-Sans", Arial;
+    text-align: center;
+    font-size: 10.7pt;
+    margin: 20px 27px 0 0;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #B1ACAC;
+}
+
+.call-footer-btn {
+    width: 180px;
+    height: 40px;
+    background-color: #007ED7;
+    text-transform: uppercase;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.5s;
+    margin: 23px 0 0 60px;
+}
+
+.call-footer-btn:hover {
+    background-color: #2F508E;
+    transition: background-color 0.5s;
+}
+
 main {
     width: 100%;
     height: 100%;

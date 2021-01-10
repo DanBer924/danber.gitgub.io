@@ -28,9 +28,17 @@ body {
   font-style: normal; 
 }
 
+@font-face { 
+  font-family: 'OpenSans-SemiBold';
+  src: url('../fonts/OpenSans-Bold.ttf')  format('truetype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
 header {
     width: 100%;
-    height: 913px;
+    height: 903px;
+    position: relative;
 }
 
 img {
@@ -39,9 +47,10 @@ img {
 }
 
 .logo {
-    width: 250px;
+    display: block;
+    width: 253px;
     position: absolute;
-    top: 4.5%;
+    top: 7%;
     left: 39.5%;
 }
 
@@ -52,7 +61,7 @@ img {
     color: white;
     text-transform: uppercase;
     font-size: 34pt;
-    top: 20%;
+    top: 33%;
     left: 23.5%;
     letter-spacing: 1px;
 }
@@ -69,8 +78,8 @@ img {
     background-color: white;
     width: 314px;
     height: 314px;
-    top: 36.5%;
-    left: 36.6%;
+    top: 60%;
+    left: 36.7%;
     box-shadow: 0 0 8px gray;
 }
 
@@ -151,7 +160,7 @@ img {
     font-family: "Open-Sans", Arial;
     text-align: center;
     font-size: 10.7pt;
-    margin: 20px 27px 0 0;
+    margin-top: 20px;
     line-height: 18px;
     letter-spacing: 0.4px;
     color: #B1ACAC;
@@ -159,7 +168,7 @@ img {
 
 .call-footer-btn {
     width: 180px;
-    height: 40px;
+    height: 42.2px;
     background-color: #007ED7;
     text-transform: uppercase;
     color: #FFF;
@@ -167,7 +176,8 @@ img {
     cursor: pointer;
     outline: none;
     transition: background-color 0.5s;
-    margin: 23px 0 0 60px;
+    margin: 23px 0 0 63px;
+    font-size: 16.4pt;
 }
 
 .call-footer-btn:hover {
@@ -176,16 +186,77 @@ img {
 }
 
 main {
+    padding-top: 3px;
     width: 100%;
     height: 100%;
     padding-bottom: 273px;
 }
 
-.Mya {
+.boxes {
     width: 100%;
-    height: 300px;
-    background-color: gray;
-    color: red;
+    height: 100%;
+    display: block;
+}
+
+.documents,
+.photos {
+    margin-left: 186px;
+    display: inline-block;
+    position: relative;
+}
+
+.doc-img {
+    width: 90px;
+    height: 113px;
+}
+
+.documents .text {
+    position: absolute;
+    width: 270px;
+    height: auto;
+    display: inline-block;
+    left: 132%;
+    top: 7.2%;
+}
+
+.photos .text {
+    position: absolute;
+    width: 270px;
+    height: auto;
+    display: inline-block;
+    left: 125%;
+    top: 10%;
+}
+
+.doc-heading,
+.cam-heading {
+    font-family: "Open-Sans", Arial;
+    font-weight: 800;
+    font-size: 20pt;
+    margin-bottom: 7px;
+    letter-spacing: 0.5px;
+}
+
+.doc-heading {
+    font-size:  18pt;
+    letter-spacing: 2px;
+}
+
+.doc-paragraph,
+.cam-paragraph {
+    font-family: "Open-Sans";
+    display: inline-block;
+    font-size: 11pt;
+    line-height: 22.7px;
+}
+
+.photos {
+    margin-left: 344.7px;
+}
+
+.cam-img {
+    width: 94px;
+    height: 118px;
 }
 
 footer {

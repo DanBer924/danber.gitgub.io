@@ -194,7 +194,7 @@ main {
 
 .boxes {
     width: 100%;
-    height: 100%;
+    height: 215px;
     display: block;
 }
 
@@ -257,6 +257,50 @@ main {
 .cam-img {
     width: 94px;
     height: 118px;
+}
+
+.this-head-top {
+    background: url(../img/main/section/bg.png);
+    width: 100%;
+    height: 820px;
+    position: relative;
+}
+
+.this-head_logo {
+    position: absolute;
+    width: 475px;
+    top: 10%;
+    left: 16%;
+}
+
+.this-head-top_title {
+    position: absolute;
+    font-family: "Open-Sans-Bold", Arial;
+    font-size: 26pt;
+    letter-spacing: 0.65px;
+    top: 31.3%;
+    left: 35.5%;
+    color: white;
+}
+
+.this-head-top_paragraph {
+    width: 600px;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 10pt;
+    position: absolute;
+    top: 39.5%;
+    left: 23.98%;
+    color: white;
+    line-height: 22px;
+}
+
+.this-head-top_paragraph-indent {
+    position: absolute;
+    margin-top: 40px;
+}
+
+.this-head-bottom {
+
 }
 
 footer {

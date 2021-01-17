@@ -261,6 +261,7 @@ main {
 
 .this-head-top {
     background: url(../img/main/section/bg.png);
+    clip-path: polygon(0 0, 100% 0, 100% 62%, 0 100%);
     width: 100%;
     height: 820px;
     position: relative;
@@ -300,7 +301,40 @@ main {
 }
 
 .this-head-bottom {
+    background: url(../img/main/section2/bg.png);
+    width: 100%;
+    height: 800px;
+    position: relative;
+    margin-top: -333px;
+}
 
+.this-bottom_logo {
+    position: absolute;
+    width: 475px;
+    top: 47%;
+    left: 0;
+}
+
+.this-head-bottom_title {
+    position: absolute;
+    font-family: "Open-Sans-Bold", Arial;
+    font-size: 26pt;
+    color: white;
+    letter-spacing: 0.65px;
+    top: 45.5%;
+    left: 43.6%;
+}
+
+.this-head-bottom_paragraph {
+    position: absolute;
+    width: 1200px;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 10pt;
+    line-height: 22.1px;
+    letter-spacing: 0.15px;
+    color: white;
+    top: 52.3%;
+    left: 44.5%;
 }
 
 footer {

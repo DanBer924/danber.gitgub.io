@@ -46,6 +46,10 @@ img {
     height: auto;
 }
 
+button {
+    cursor: pointer;
+}
+
 .logo {
     display: block;
     width: 253px;
@@ -173,7 +177,6 @@ img {
     text-transform: uppercase;
     color: #FFF;
     border: none;
-    cursor: pointer;
     outline: none;
     transition: background-color 0.5s;
     margin: 23px 0 0 63px;
@@ -380,21 +383,75 @@ main {
     left: 33%;
 }
 
-.contact-name {
+.contact-name,
+.contact-email,
+.contact-message {
+    font-family: "Open-Sans", Arial;
+    width: 252px;
+    height: 30px;
     display: block;
+    margin-bottom: 10px;
+    margin-left: 77px;
+    padding-left: 5px;
+    outline: none;
 }
 
-.contact-email {
-    display: block;
+.contact-name:hover,
+.contact-email:hover,
+.contact-message:hover {
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+
+.contact-name {
+    margin-top: 102px;
+    
 }
 
 .contact-message {
-    display: block;
-    min-width: 120px;
+    padding-top: 3px;
+    resize: none;
+    width: 254px;
+    height: 75px;
 }
 
 .contact-btn {
+    position: relative;
     display: block;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #439F6C;
+    margin-top: 28px;
+    margin-left: 177px;
+    border: 1px solid #439F6C;
+}
+
+.contact-btn:hover {
+    background-color: #438B6C;
+    transition: background-color 0.5s;
+}
+
+.contact-btn:before {
+    content: '';
+    position: absolute;
+    width: 9.5px;
+    height: 23px;
+    background: white;
+    transform: rotate(-45deg);
+    top: 27px;
+    left: 16px;
+}
+
+.contact-btn:after {
+    content: '';
+    position: absolute;
+    width: 9.5px;
+    height: 30px;
+    background: white;
+    transform: rotate(45deg);
+    top: 15px;
+    right: 19px;
 }
 
 footer {
